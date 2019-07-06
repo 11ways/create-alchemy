@@ -1,0 +1,21 @@
+{
+	"name": "create-alchemy",
+	"version": "0.0.1",
+	"description": "Create an alchemymvc app",
+	"main": "index.js",
+	"bin": {
+		"create-alchemy": "tasks/create-app.js"
+	},
+	"scripts": {
+		"create-alchemy": "tasks/create-app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/skerit/create-alchemy.git"
+	},
+	"dependencies": {
+		"rimraf": "~2.6.3",
+		"chalk": "~2.4.2",
+		"replace-in-file": "~4.1.1"
+	}
+}
